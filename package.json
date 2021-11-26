@@ -4,12 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "test": "mocha",
     "dev": "next dev"
-=======
-    "test": "mocha"
->>>>>>> parent of 7e2ebf6... feat: added cards to project
   },
   "repository": {
     "type": "git",
