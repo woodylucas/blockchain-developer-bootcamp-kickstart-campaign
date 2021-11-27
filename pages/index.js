@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Card, Button } from "semantic-ui-react";
 import factory from "../ethereum/factory";
+import Layout from "../components/Layout";
 
 const CampaignIndex = ({ campaigns }) => {
   const renderCampaigns = () => {
@@ -14,15 +15,16 @@ const CampaignIndex = ({ campaigns }) => {
     return <Card.Group items={items} />;
   };
   return (
-    <div>
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
-      />
+    <Layout>
       <h3>Open Campaigns</h3>
+      <Button
+        floated="right"
+        content="Create Campaign"
+        icon="add circle"
+        primary
+      />
       {renderCampaigns()}
-      <Button content="Create Campaign" icon="add circle" primary />
-    </div>
+    </Layout>
   );
 };
 
