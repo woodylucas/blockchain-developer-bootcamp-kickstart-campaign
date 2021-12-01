@@ -30,7 +30,7 @@ const RequestRow = ({ id, request, address, approversCount }) => {
   return (
     <Row
       disabled={request.complete}
-      postive={readyToFinalize && !request.complete}
+      positive={readyToFinalize && !request.complete}
     >
       <Cell>{id}</Cell>
       <Cell>{request.description}</Cell>
