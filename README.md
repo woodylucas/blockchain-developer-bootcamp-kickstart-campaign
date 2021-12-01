@@ -14,9 +14,16 @@ https://blockchain-developer-bootcamp-kickstart-campaign.vercel.app/
 * node compile
 * node build
 
-### Frontend
-* npm run dev
-* localhost/3000
+### Frontend/ Ethereum Tooks
+* 'Solidity' - used to create Smart Contracts
+* 'Remix - Solidity IDE' - online ide for creating, compiling and executing smart contracts in local, test or main network.
+* 'MetaMask' - a chrome plugin, brings Ethereum dApps access to browser.
+* 'solc' - Solidity compiler that generates Application Binary Interface(used as interface with Javascript appilcations) and Bytecode - that is deployed as a smart contract to an Ethereum network
+*'web3' - is the Ethereum compatible JavaScript API
+*'ganache' - local test ethereum network
+*'truffle' - provider for web3, to connect to test/main networks
+* Rinkeby test network & Infura infrastructure
+* React frontend
 
 ### Public Ethereum Wallet for Certification
 * 0x26b752ff144A7DD1BD09D703Be7E06edfe6C7e1F
