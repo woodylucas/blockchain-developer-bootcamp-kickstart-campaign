@@ -26,7 +26,7 @@ https://blockchain-developer-bootcamp-kickstart-campaign.vercel.app/
 * React frontend
 
 ### Public Ethereum Wallet for Certification
-* 0x26b752ff144A7DD1BD09D703Be7E06edfe6C7e1F
+* 0xbDAA618066d3c35FF59Aa27bF810bb4f708C59d0
 
 ### Project Description 
 
